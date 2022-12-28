@@ -1,5 +1,15 @@
 # Learning Qiskit
 
+## Table of Contents
+
+- [Learning Qiskit](#learning-qiskit)
+  - [Table of Contents](#table-of-contents)
+  - [Notes 1](#notes-1)
+    - [Getting started 2 3](#getting-started-2-3)
+      - [Install](#install)
+      - [Start](#start)
+    - [Learning](#learning)
+
 ## Notes <sup>[1]</sup>
 
 ### Getting started <sup>[2]</sup> <sup>[3]</sup>
@@ -26,18 +36,17 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 - [Qiskit docs][4]
 
-- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup>
+- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup>
 
-- Linear Algebra <sup>[7]</sup> <sup>[8]</sup>
+- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup>
 
-- Qiskit programming <sup>[14]<sup>
+- Qiskit programming <sup>[14]<sup> <sup>[15]<sup>
 
-<!-- ### References -->
+<!-- References -->
 
 [1]: <https://qiskit.org/textbook> "Qiskit Textbook"
 
-[2]: <https://developers.refinitiv.com/en/article-catalog/article/how-to-set-up-and-run-data-science-development-environment-with-> "How to set up and run 
-Python Data Science Development Environment with Jupyter on Docker"
+[2]: <https://developers.refinitiv.com/en/article-catalog/article/how-to-set-up-and-run-data-science-development-environment-with-> "How to set up and run Python Data Science Development Environment with Jupyter on Docker"
 
 [3]: <https://docs.docker.com/engine/reference> "Docker Docs"
 
@@ -62,3 +71,11 @@ Python Data Science Development Environment with Jupyter on Docker"
 [13]: <https://ocw.tudelft.nl/course-lectures/3-2-2-phase-kickback/> "Phase kickback"
 
 [14]: <https://qiskit.org/documentation/stubs/qiskit.circuit.QuantumCircuit.draw.html?highlight=draw#qiskit.circuit.QuantumCircuit.draw> "QuantumCircuit.draw"
+
+[15]: <https://bibis.ir/science-books/programming/2022/Qiskit%20Pocket%20Guide%20Fourth%20Early%20Release%20by%20James%20Weaver_bibis.ir.pdf> "Qiskit Pocket Guide"
+
+[16]: <https://en.wikipedia.org/wiki/Euler%27s_formula> "Euler's formula"
+
+[17]: <https://en.wikipedia.org/wiki/Quantum_logic_gate#Parallel_gates> "Understanding Parallel gates"
+
+[18]: <https://en.wikipedia.org/wiki/List_of_quantum_logic_gates> "List of quantum gates"
