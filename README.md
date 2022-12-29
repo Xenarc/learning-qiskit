@@ -36,11 +36,13 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 - [Qiskit docs][4]
 
-- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup> <sup>[20]</sup>
+- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup> <sup>[20]</sup> <sup>[24]</sup> <sup>[25]</sup>
 
-- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup> <sup>[19]</sup> <sup>[21]</sup>
+- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup> <sup>[19]</sup> <sup>[21]</sup> <sup>[23]</sup>
 
-- Qiskit programming <sup>[14]</sup> <sup>[15]</sup>
+- Qiskit Programming <sup>[14]</sup> <sup>[15]</sup>
+
+- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup>
 
 <!-- References -->
 
@@ -82,6 +84,16 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 [19]: <https://en.wikipedia.org/wiki/Matrix_exponential#Computing_the_matrix_exponential> "Matrix exponentiation"
 
-[20]: <https://www.quantum-inspire.com/kbase/rotation-operators/> "Rotation operators"
+[20]: <https://www.quantum-inspire.com/kbase/rotation-operators> "Rotation operators"
 
-[21]: <https://en.wikipedia.org/wiki/Injective_function/> "Injective functions"
+[21]: <https://en.wikipedia.org/wiki/Injective_function> "Injective functions"
+
+[22]: <https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm> "The Deutsch-Jozsa algorithm"
+
+[23]: <https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation> "Dirac Notation"
+
+[24]: <https://en.wikipedia.org/wiki/Hadamard_transform> "Hadamard transform"
+
+[25]: <http://einsteinrelativelyeasy.com/index.php/quantum-mechanics/154-hadamard-gate-on-multiple-qubits?tmpl=component&print=1> "Parrallel hadamard transform"
+
+[26]: <http://einsteinrelativelyeasy.com/index.php/quantum-mechanics/168-the-deutsch-jozsa-algorithm?tmpl=component&print=1> "The Deutsch-Jozsa algorithm"
