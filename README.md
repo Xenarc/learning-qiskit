@@ -36,11 +36,11 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 - [Qiskit docs][4]
 
-- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup>
+- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup> <sup>[20]</sup>
 
-- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup>
+- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup> <sup>[19]</sup>
 
-- Qiskit programming <sup>[14]<sup> <sup>[15]<sup>
+- Qiskit programming <sup>[14]</sup> <sup>[15]</sup>
 
 <!-- References -->
 
@@ -79,3 +79,7 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 [17]: <https://en.wikipedia.org/wiki/Quantum_logic_gate#Parallel_gates> "Understanding Parallel gates"
 
 [18]: <https://en.wikipedia.org/wiki/List_of_quantum_logic_gates> "List of quantum gates"
+
+[19]: <https://en.wikipedia.org/wiki/Matrix_exponential#Computing_the_matrix_exponential> "Matrix exponentiation"
+
+[20]: <https://www.quantum-inspire.com/kbase/rotation-operators/> "Rotation operators"
