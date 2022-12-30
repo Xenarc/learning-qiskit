@@ -42,7 +42,7 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 - Qiskit Programming <sup>[14]</sup> <sup>[15]</sup>
 
-- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup>
+- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup> <sup>[27]</sup>
 
 <!-- References -->
 
@@ -97,3 +97,5 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 [25]: <http://einsteinrelativelyeasy.com/index.php/quantum-mechanics/154-hadamard-gate-on-multiple-qubits?tmpl=component&print=1> "Parrallel hadamard transform"
 
 [26]: <http://einsteinrelativelyeasy.com/index.php/quantum-mechanics/168-the-deutsch-jozsa-algorithm?tmpl=component&print=1> "The Deutsch-Jozsa algorithm"
+
+[27]: <https://en.wikipedia.org/wiki/Bernstein%E2%80%93Vazirani_algorithm> "The Bernstein-Vazirani algorithm"
