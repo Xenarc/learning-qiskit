@@ -36,13 +36,13 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 - [Qiskit docs][4]
 
-- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup> <sup>[20]</sup> <sup>[24]</sup> <sup>[25]</sup>
+- Quantum Computing principles <sup>[5]</sup> <sup>[6]</sup> <sup>[9]</sup> <sup>[10]</sup> <sup>[11]</sup> <sup>[12]</sup> <sup>[13]</sup> <sup>[17]</sup> <sup>[18]</sup> <sup>[20]</sup> <sup>[24]</sup> <sup>[25]</sup> <sup>[29]</sup>
 
-- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup> <sup>[19]</sup> <sup>[21]</sup> <sup>[23]</sup>
+- General Mathematics <sup>[7]</sup> <sup>[8]</sup> <sup>[16]</sup> <sup>[19]</sup> <sup>[21]</sup> <sup>[23]</sup> <sup>[28]</sup>
 
 - Qiskit Programming <sup>[14]</sup> <sup>[15]</sup>
 
-- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup> <sup>[27]</sup>
+- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup> <sup>[27]</sup> <sup>[30]</sup>
 
 <!-- References -->
 
@@ -99,3 +99,9 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 [26]: <http://einsteinrelativelyeasy.com/index.php/quantum-mechanics/168-the-deutsch-jozsa-algorithm?tmpl=component&print=1> "The Deutsch-Jozsa algorithm"
 
 [27]: <https://en.wikipedia.org/wiki/Bernstein%E2%80%93Vazirani_algorithm> "The Bernstein-Vazirani algorithm"
+
+[28]: <https://www.youtube.com/watch?v=mkGsMWi_j4Q> "Discrete Fourier Transform"
+
+[29]: <https://en.wikipedia.org/wiki/Quantum_Fourier_transform> "Quantum Fourier Transform"
+
+[30]: <https://www.nature.com/articles/s41598-021-04639-0> "QFT's for estimating drive cycles"
