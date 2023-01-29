@@ -42,7 +42,7 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 
 - Qiskit Programming <sup>[14]</sup> <sup>[15]</sup>
 
-- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup> <sup>[27]</sup> <sup>[30]</sup>
+- Quantum Applications (algorithms / protocols) <sup>[22]</sup> <sup>[26]</sup> <sup>[27]</sup> <sup>[30]</sup> <sup>[31]</sup>
 
 <!-- References -->
 
@@ -105,3 +105,5 @@ docker run -p 8888:8888 --name notebook --env-file .env --rm -it -v "$(pwd)/note
 [29]: <https://en.wikipedia.org/wiki/Quantum_Fourier_transform> "Quantum Fourier Transform"
 
 [30]: <https://www.nature.com/articles/s41598-021-04639-0> "QFT's for estimating drive cycles"
+  
+[31]: <https://iopscience.iop.org/article/10.1088/1367-2630/17/5/053017/ampdf>: "Signal-based classical emulation of a universal quantum computer"
